@@ -1,17 +1,32 @@
-@import url(c:\Users\shohei\Documents\private\tomoshibi-k.github.io\_variables.css);
+@charset "UTF-8";
+@import url(c:\Users\shohei\Documents\ともしび\hp\tomoshibi-k.github.io\_variables.css);
+@import url(c:\Users\shohei\Documents\ともしび\hp\tomoshibi-k.github.io\_fonts.css);
+@font-face {
+  font-family: 'anzumoji';
+  src: url(APJapanesefont.ttf);
+}
+
+@font-face {
+  font-family: 'hannari';
+  src: url(Hannari.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  min-width: 700px;
-  text-align: center;
+  margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  background-size: cover;
+  /* フッター */
 }
 
 body .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url("hourai.jpg");
   background-size: cover;
-  color: white;
-  text-align: center;
+  color: rgba(254, 66, 22, 0.9);
+  text-align: left;
 }
 
 body .top-wrapper h1 {
@@ -20,12 +35,117 @@ body .top-wrapper h1 {
   letter-spacing: 5px;
 }
 
-header {
+body .contents-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+body .contents-wrapper .contents .content .content-icon {
+  float: left;
+  width: 25%;
+  position: relative;
+  filter: drop-shadow(5px 5px #333333);
+}
+
+body .contents-wrapper .contents .content .content-icon p {
+  position: absolute;
+  top: 107px;
   width: 100%;
-  padding: 10px 0;
+  color: black;
+  font-family: anzumoji;
+  font-size: 32px;
+}
+
+body .contents-wrapper .contents .content .content-icon a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+body .contents-wrapper .contents .content .content-icon:active {
+  filter: none;
+  top: 5px;
+  left: 5px;
+}
+
+body .footer {
+  padding: 12px 0;
+  border-top: #ccd1d9 solid 1px;
+  background: #fff;
+  text-align: center;
+  clear: both;
+}
+
+body .footer .footer-nav {
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+body .footer .footer-nav .footer-nav-group {
+  margin: 0;
+  padding: 0;
+  display: -moz-inline-stack;
   display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  text-decoration: none;
+}
+
+body .footer .footer-nav .footer-nav-group li {
+  padding: 0 6px;
+  font-size: 0.9em;
+}
+
+body .footer .footer-nav .footer-nav-group li a {
+  color: #666;
+}
+
+body .footer .footer-nav .footer-nav-group li a:hover {
+  color: #999;
+}
+
+body .footer .footer-copyright {
+  color: #999;
+  font-size: 0.8em;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(254, 66, 22, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+header .logo {
+  width: 250px;
+  margin: 7px 0 0 5px;
 }
 
 header .header-left {
   float: left;
+}
+
+header .header-right {
+  float: right;
+}
+
+header .header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+header .header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
