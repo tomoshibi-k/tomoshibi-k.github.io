@@ -100,11 +100,13 @@ body{
                 *vertical-align: auto;
                 zoom: 1;
                 *display: inline;
-                text-decoration: none;
+                
 
                 li{
                     padding: 0 6px;
                     font-size: 0.9em;
+                    list-style: none;
+                    float: left;
                     a{
                         color: #666;
                         &:hover{
@@ -134,6 +136,15 @@ header{
     position :fixed;
     top: 0;
     z-index: 10;
+
+    .menu-icon {
+        color: white;
+        float: right;
+        font-size: 25px;
+        padding: 21px 0;
+        /* displayをnoneに指定してください */
+        display: none;
+      }
 
     .logo{
         width: 250px;
