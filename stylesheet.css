@@ -21,7 +21,8 @@ body {
 .background {
   background-image: url("hourai.jpg");
   background-size: cover;
-  padding: 120px 0 300px 0;
+  background-position: center center;
+  padding: auto 0;
 }
 
 .top-wrapper {
@@ -120,8 +121,8 @@ header {
 .menu-icon {
   color: white;
   float: right;
-  font-size: 25px;
-  padding: 21px 0;
+  font-size: 36px;
+  padding: 21px 10px;
   display: none;
 }
 
