@@ -19,53 +19,29 @@ body {
   /* フッター */
 }
 
-body .background {
-  background-image: url("hourai.jpg");
-  background-size: cover;
-  padding: 120px 0 300px 0;
-}
-
-body .background .top-wrapper {
-  padding-bottom: 60px;
-  color: #fe4216;
-  text-align: left;
-}
-
-body .background .top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-}
-
-body .background .contents-wrapper {
+body .contents-wrapper {
   text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  background-image: url("trumpet.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
-body .background .contents-wrapper .contents .content .content-icon {
-  float: left;
-  width: 25%;
-  position: relative;
-  filter: drop-shadow(5px 5px #333333);
+body .contents-wrapper .filter {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-body .background .contents-wrapper .contents .content .content-icon:active {
-  filter: none;
-  top: 5px;
-  left: 5px;
+body .contents-wrapper .filter .contents {
+  padding-top: 120px;
 }
 
-body .background .contents-wrapper .contents .content .content-icon a {
-  width: 100%;
-  height: 100%;
+body .contents-wrapper .filter .contents .heading {
+  letter-spacing: 2px;
 }
 
-body .background .contents-wrapper .contents .content .content-icon a p {
-  position: absolute;
-  top: 107px;
-  width: 100%;
-  color: black;
-  font-family: anzumoji;
-  font-size: 32px;
+body .contents-wrapper .filter .contents .twitter {
+  margin: auto;
+  width: 50%;
 }
 
 body .footer {
@@ -138,6 +114,12 @@ header .logo {
 
 header .header-left {
   float: left;
+  padding-right: 7px;
+  transition: all 0.5s;
+}
+
+header .header-left:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 header .header-right {
@@ -155,4 +137,8 @@ header .header-right a {
 
 header .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .header-right .header-trial {
+  background-color: rgba(255, 0, 0, 0.5);
 }

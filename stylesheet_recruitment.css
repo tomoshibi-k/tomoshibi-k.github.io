@@ -19,53 +19,60 @@ body {
   /* フッター */
 }
 
-body .background {
-  background-image: url("hourai.jpg");
+body .contents-wrapper {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  background-image: url("trumpet.jpg");
   background-size: cover;
-  padding: 120px 0 300px 0;
+  background-position: center center;
 }
 
-body .background .top-wrapper {
-  padding-bottom: 60px;
-  color: #fe4216;
-  text-align: left;
+body .contents-wrapper .filter {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
-body .background .top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
+body .contents-wrapper .filter .contents {
+  padding-top: 120px;
 }
 
-body .background .contents-wrapper {
+body .contents-wrapper .filter .contents .heading {
+  letter-spacing: 2px;
+}
+
+body .contents-wrapper .filter .contents .texts {
+  font-family: hannari;
+  font-size: 26px;
+  padding: 0 20%;
+}
+
+body .contents-wrapper .filter .contents .texts span {
+  color: rgba(254, 66, 22, 0.9);
+}
+
+body .contents-wrapper .filter .contents table {
+  margin: auto;
+}
+
+body .contents-wrapper .filter .contents .content {
+  padding: 20px;
+}
+
+body .contents-wrapper .filter .contents .btn {
+  padding: 15px 40px;
+  background-color: #fe4216;
+  box-shadow: 5px 5px #333333;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
   text-align: center;
 }
 
-body .background .contents-wrapper .contents .content .content-icon {
-  float: left;
-  width: 25%;
+body .contents-wrapper .filter .contents .btn:active {
   position: relative;
-  filter: drop-shadow(5px 5px #333333);
-}
-
-body .background .contents-wrapper .contents .content .content-icon:active {
-  filter: none;
+  box-shadow: none;
   top: 5px;
   left: 5px;
-}
-
-body .background .contents-wrapper .contents .content .content-icon a {
-  width: 100%;
-  height: 100%;
-}
-
-body .background .contents-wrapper .contents .content .content-icon a p {
-  position: absolute;
-  top: 107px;
-  width: 100%;
-  color: black;
-  font-family: anzumoji;
-  font-size: 32px;
 }
 
 body .footer {
@@ -138,6 +145,12 @@ header .logo {
 
 header .header-left {
   float: left;
+  padding-right: 7px;
+  transition: all 0.5s;
+}
+
+header .header-left:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 header .header-right {
@@ -155,4 +168,8 @@ header .header-right a {
 
 header .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+}
+
+header .header-right .header-trial {
+  background-color: rgba(255, 0, 0, 0.5);
 }
