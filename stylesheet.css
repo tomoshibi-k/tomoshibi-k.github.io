@@ -20,47 +20,47 @@ body {
   /* フッター */
 }
 
-body .top-wrapper {
-  padding: 180px 0 100px 0;
+body .background {
   background-image: url("hourai.jpg");
   background-size: cover;
-  color: rgba(254, 66, 22, 0.9);
+  padding: 120px 0 300px 0;
+}
+
+body .background .top-wrapper {
+  padding-bottom: 60px;
+  color: #fe4216;
   text-align: left;
 }
 
-body .top-wrapper h1 {
+body .background .top-wrapper h1 {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
 }
 
-body .contents-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
+body .background .contents-wrapper {
   text-align: center;
 }
 
-body .contents-wrapper .contents .content .content-icon {
+body .background .contents-wrapper .contents .content .content-icon {
   float: left;
   width: 25%;
   position: relative;
   filter: drop-shadow(5px 5px #333333);
 }
 
-body .contents-wrapper .contents .content .content-icon:active {
+body .background .contents-wrapper .contents .content .content-icon:active {
   filter: none;
   top: 5px;
   left: 5px;
 }
 
-body .contents-wrapper .contents .content .content-icon a {
+body .background .contents-wrapper .contents .content .content-icon a {
   width: 100%;
   height: 100%;
 }
 
-body .contents-wrapper .contents .content .content-icon a p {
+body .background .contents-wrapper .contents .content .content-icon a p {
   position: absolute;
   top: 107px;
   width: 100%;
