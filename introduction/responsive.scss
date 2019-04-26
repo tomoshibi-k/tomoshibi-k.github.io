@@ -1,21 +1,32 @@
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-    .content-icon {
+  .content-icon {
       width: 50%;
       margin-bottom: 50px;
-    }
-  
-    
   }
-  
-  /* スマホ向けレイアウト */
-  @media all and (max-width: 670px) {
-    .content-icon {
-      width: 100%;
-    }
 
-    .top-wrapper{
-        text-align: center;
-    }
-  
+  .header-right{
+    display: none;
   }
+
+  .menu-icon{
+    display: block;
+  }
+}
+
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .content-icon{
+      width: 50%;
+      margin-bottom: 50px;
+  }
+
+  .header-right{
+      display: none;
+  }
+
+  .menu-icon{
+      display: block;
+  }
+
+}
