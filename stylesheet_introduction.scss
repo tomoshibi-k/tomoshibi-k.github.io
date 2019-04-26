@@ -1,11 +1,4 @@
-@font-face {
-	font-family: 'anzumoji';
-	src: url(APJapanesefont.ttf);
-}
-@font-face {
-	font-family: 'hannari';
-	src: url(Hannari.otf);
-}
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
 
 *{
     box-sizing: border-box;
@@ -37,7 +30,7 @@
 }
 
 .texts{
-    font-family: hannari;
+    font-family: "Sawarabi Mincho";
     font-size: 26px;
     padding: 0 20%;
     span{
