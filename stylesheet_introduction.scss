@@ -19,7 +19,7 @@
 .contents-wrapper{
     text-align: center;
     color: rgba(255, 255, 255, 0.9);
-    background-image: url("trumpet.jpg");
+    background-image: url("trumpet.png");
     background-size: cover;
     background-position:center center;
 }
@@ -142,13 +142,14 @@ header{
 .menu-box {
     float: right;
     list-style: none;
-    font-size: 18px;
+    font-size: 22px;
+    text-align: center;
     display: none;
     margin-top: 60px;
     position: absolute;
     right:0%;
     li{
-        padding: 5px 10px;
+        padding: 10px 15px;
         border: groove rgba(255, 255, 255, 0.3);
         background-color: rgba(254, 66, 22, 0.5);
         &:hover{
