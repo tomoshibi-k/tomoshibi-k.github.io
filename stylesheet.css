@@ -1,6 +1,5 @@
 @charset "UTF-8";
 @import url(c:\Users\shohei\Documents\ともしび\hp\tomoshibi-k.github.io\_variables.css);
-@import url(c:\Users\shohei\Documents\ともしび\hp\tomoshibi-k.github.io\_fonts.css);
 @font-face {
   font-family: 'anzumoji';
   src: url(APJapanesefont.ttf);
@@ -50,7 +49,13 @@ body .contents-wrapper .contents .content .content-icon {
   filter: drop-shadow(5px 5px #333333);
 }
 
-body .contents-wrapper .contents .content .content-icon p {
+body .contents-wrapper .contents .content .content-icon a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+body .contents-wrapper .contents .content .content-icon a p {
   position: absolute;
   top: 107px;
   width: 100%;
@@ -59,13 +64,7 @@ body .contents-wrapper .contents .content .content-icon p {
   font-size: 32px;
 }
 
-body .contents-wrapper .contents .content .content-icon a {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-
-body .contents-wrapper .contents .content .content-icon:active {
+body .contents-wrapper .contents .content .content-icon a:active {
   filter: none;
   top: 5px;
   left: 5px;

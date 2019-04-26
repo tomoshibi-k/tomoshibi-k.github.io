@@ -1,5 +1,4 @@
 @import "_variables.css";
-@import "_fonts.css";
 
 @font-face {
 	font-family: 'anzumoji';
@@ -49,27 +48,26 @@ body{
                     position: relative;
                     filter: drop-shadow(5px 5px rgb(51, 51, 51));
 
-                    p{
-                        position: absolute;
-                        top: 107px;
-                        width: 100%;
-                        color: black;
-                        font-family: anzumoji;
-                        font-size: 32px;
-                    }
-
                     a{
                         position: absolute;
                         width: 100%;
                         height: 100%;
+                        p{
+                            position: absolute;
+                            top: 107px;
+                            width: 100%;
+                            color: black;
+                            font-family: anzumoji;
+                            font-size: 32px;
+                        }
+                        &:active{
+                            filter: none;
+                            top: 5px;
+                            left: 5px;
+                        }
                     }
 
-                    &:active{
-                        filter: none;
-                        top: 5px;
-                        left: 5px;
-
-                    }
+                    
                 }
               }
             
