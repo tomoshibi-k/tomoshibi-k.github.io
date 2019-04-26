@@ -16,10 +16,9 @@
 body {
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  /* フッター */
 }
 
-body .contents-wrapper {
+.contents-wrapper {
   text-align: center;
   color: rgba(255, 255, 255, 0.9);
   background-image: url("trumpet.jpg");
@@ -27,37 +26,27 @@ body .contents-wrapper {
   background-position: center center;
 }
 
-body .contents-wrapper .filter {
+.filter {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-body .contents-wrapper .filter .contents {
+.contents {
   padding-top: 120px;
 }
 
-body .contents-wrapper .filter .contents .heading {
+.heading {
   letter-spacing: 2px;
 }
 
-body .contents-wrapper .filter .contents .texts {
-  font-family: hannari;
-  font-size: 26px;
-  padding: 0 20%;
-}
-
-body .contents-wrapper .filter .contents .texts span {
-  color: rgba(254, 66, 22, 0.9);
-}
-
-body .contents-wrapper .filter .contents table {
+table {
   margin: auto;
 }
 
-body .contents-wrapper .filter .contents .content {
+.content {
   padding: 20px;
 }
 
-body .contents-wrapper .filter .contents .btn {
+.btn {
   padding: 15px 40px;
   background-color: #fe4216;
   box-shadow: 5px 5px #333333;
@@ -68,14 +57,15 @@ body .contents-wrapper .filter .contents .btn {
   text-align: center;
 }
 
-body .contents-wrapper .filter .contents .btn:active {
+.btn:active {
   position: relative;
   box-shadow: none;
   top: 5px;
   left: 5px;
 }
 
-body .footer {
+/* フッター */
+.footer {
   padding: 12px 0;
   border-top: #ccd1d9 solid 1px;
   background: #fff;
@@ -83,13 +73,13 @@ body .footer {
   clear: both;
 }
 
-body .footer .footer-nav {
+.footer-nav {
   margin-bottom: 12px;
   width: 100%;
   text-align: center;
 }
 
-body .footer .footer-nav .footer-nav-group {
+.footer-nav-group {
   margin: 0;
   padding: 0;
   display: -moz-inline-stack;
@@ -100,22 +90,22 @@ body .footer .footer-nav .footer-nav-group {
   *display: inline;
 }
 
-body .footer .footer-nav .footer-nav-group li {
+.footer-nav-group li {
   padding: 0 6px;
   font-size: 0.9em;
   list-style: none;
   float: left;
 }
 
-body .footer .footer-nav .footer-nav-group li a {
+.footer-nav-group li a {
   color: #666;
 }
 
-body .footer .footer-nav .footer-nav-group li a:hover {
+.footer-nav-group li a:hover {
   color: #999;
 }
 
-body .footer .footer-copyright {
+.footer-copyright {
   color: #999;
   font-size: 0.8em;
 }
@@ -129,35 +119,34 @@ header {
   z-index: 10;
 }
 
-header .menu-icon {
+.menu-icon {
   color: white;
   float: right;
   font-size: 25px;
   padding: 21px 0;
-  /* displayをnoneに指定してください */
   display: none;
 }
 
-header .logo {
+.logo {
   width: 250px;
   margin: 7px 0 0 5px;
 }
 
-header .header-left {
+.header-left {
   float: left;
   padding-right: 7px;
   transition: all 0.5s;
 }
 
-header .header-left:hover {
+.header-left:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-header .header-right {
+.header-right {
   float: right;
 }
 
-header .header-right a {
+.header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -166,10 +155,10 @@ header .header-right a {
   transition: all 0.5s;
 }
 
-header .header-right a:hover {
+.header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
-header .header-right .header-trial {
+.header-trial {
   background-color: rgba(255, 0, 0, 0.5);
 }
