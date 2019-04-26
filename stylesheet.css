@@ -161,6 +161,10 @@ header {
   background-color: rgba(255, 0, 0, 0.5);
 }
 
+.menu {
+  display: none;
+}
+
 .menu-box {
   font-size: 12px;
   display: none;
@@ -172,7 +176,6 @@ header {
   color: white;
   float: right;
   padding: 22px 10px;
-  display: none;
 }
 
 .menu-icon:hover {
