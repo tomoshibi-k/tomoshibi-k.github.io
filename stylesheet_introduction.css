@@ -1,0 +1,169 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Sawarabi+Mincho");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.contents-wrapper {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+  background-image: url("trumpet.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.filter {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.intro {
+  padding-top: 120px;
+}
+
+.heading {
+  letter-spacing: 2px;
+}
+
+.texts {
+  font-family: "Sawarabi Mincho";
+  font-size: 26px;
+  padding: 0 20%;
+}
+
+.texts span {
+  color: rgba(254, 66, 22, 0.9);
+}
+
+.policy {
+  padding: 60px 0;
+}
+
+/* フッター */
+.footer {
+  padding: 12px 0;
+  border-top: #ccd1d9 solid 1px;
+  background: #fff;
+  text-align: center;
+  clear: both;
+}
+
+.footer-nav {
+  margin-bottom: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-nav-group {
+  margin: 0;
+  padding: 0;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+}
+
+.footer-nav-group li {
+  padding: 0 6px;
+  font-size: 0.9em;
+  list-style: none;
+  float: left;
+}
+
+.footer-nav-group li a {
+  color: #666;
+}
+
+.footer-nav-group li a:hover {
+  color: #999;
+}
+
+.footer-copyright {
+  color: #999;
+  font-size: 0.8em;
+}
+
+/* ヘッダー */
+header {
+  height: 60px;
+  width: 100%;
+  background-color: rgba(254, 66, 22, 0.5);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 250px;
+  padding: 4px 5px 8px 5px;
+}
+
+.logo:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 60px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.header-trial {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+.menu {
+  display: none;
+}
+
+.menu-box {
+  float: right;
+  list-style: none;
+  font-size: 22px;
+  text-align: center;
+  display: none;
+  margin-top: 60px;
+  position: absolute;
+  right: 0%;
+}
+
+.menu-box li {
+  padding: 10px 15px;
+  border: groove rgba(255, 255, 255, 0.3);
+  background-color: rgba(254, 66, 22, 0.5);
+}
+
+.menu-box li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  padding: 22px 10px;
+}
+
+.menu-icon:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
