@@ -47,9 +47,12 @@ body{
                     width: 25%;
                     position: relative;
                     filter: drop-shadow(5px 5px rgb(51, 51, 51));
-
+                    &:active{
+                        filter: none;
+                        top: 5px;
+                        left: 5px;
+                    }
                     a{
-                        position: absolute;
                         width: 100%;
                         height: 100%;
                         p{
@@ -60,11 +63,7 @@ body{
                             font-family: anzumoji;
                             font-size: 32px;
                         }
-                        &:active{
-                            filter: none;
-                            top: 5px;
-                            left: 5px;
-                        }
+                        
                     }
 
                     
