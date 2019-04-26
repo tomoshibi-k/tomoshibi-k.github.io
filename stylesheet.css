@@ -18,11 +18,18 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
 }
 
-.background {
+.pc-background {
   background-image: url("hourai.jpg");
   background-size: cover;
   background-position: center center;
   padding: 120px 0 300px 0;
+}
+
+.mobile-background {
+  background-image: none;
+  background-size: cover;
+  background-position: center center;
+  padding: 60px 0;
 }
 
 .top-wrapper {
@@ -109,8 +116,9 @@ body {
   font-size: 0.8em;
 }
 
+/* ヘッダー */
 header {
-  height: 65px;
+  height: 60px;
   width: 100%;
   background-color: rgba(254, 66, 22, 0.5);
   position: fixed;
@@ -118,17 +126,9 @@ header {
   z-index: 10;
 }
 
-.menu-icon {
-  color: white;
-  float: right;
-  font-size: 36px;
-  padding: 21px 10px;
-  display: none;
-}
-
 .logo {
   width: 250px;
-  margin: 7px 0 0 5px;
+  margin: 3px 0 0 5px;
 }
 
 .header-left {
@@ -140,7 +140,7 @@ header {
 }
 
 .header-right a {
-  line-height: 65px;
+  line-height: 60px;
   padding: 0 25px;
   color: white;
   display: block;
@@ -154,4 +154,11 @@ header {
 
 .header-trial {
   background-color: rgba(255, 0, 0, 0.5);
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  padding: 21px 10px;
+  display: none;
 }

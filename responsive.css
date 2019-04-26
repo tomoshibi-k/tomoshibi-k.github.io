@@ -33,4 +33,11 @@
     font-size: 36px;
     letter-spacing: 3px;
   }
+  .pc-background {
+    background-image: none;
+    padding: 60px 0 0 0;
+  }
+  .mobile-background {
+    background-image: url("hourai.jpg");
+  }
 }
