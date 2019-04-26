@@ -151,19 +151,24 @@ header{
     }
 }
 
-.header-trial{
-    background-color: rgba(255, 0, 0, 0.5);
-}
-
 .menu{
     display: none;
 }
 
 .menu-box {
-    font-size: 12px;
+    float: right;
+    list-style: none;
+    font-size: 18px;
     display: none;
-    padding: 5px 0px;
-    margin-bottom: 15px;
+    margin-top: 60px;
+    li{
+        padding: 5px 10px;
+        border: groove rgba(255, 255, 255, 0.3);
+        background-color: rgba(254, 66, 22, 0.5);
+        &:hover{
+            background-color: rgba(255, 255, 255, 0.3);
+       }
+    }
 }
 
 .menu-icon {
@@ -173,4 +178,8 @@ header{
     &:hover{
         background-color: rgba(255, 255, 255, 0.3);
    }
+}
+
+.header-trial{
+    background-color: rgba(255, 0, 0, 0.5);
 }
