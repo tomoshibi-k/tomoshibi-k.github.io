@@ -157,6 +157,10 @@ header {
   background-color: rgba(255, 255, 255, 0.3);
 }
 
+.header-trial {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
 .menu {
   display: none;
 }
@@ -167,6 +171,8 @@ header {
   font-size: 18px;
   display: none;
   margin-top: 60px;
+  position: absolute;
+  right: 0%;
 }
 
 .menu-box li {
@@ -187,8 +193,4 @@ header {
 
 .menu-icon:hover {
   background-color: rgba(255, 255, 255, 0.3);
-}
-
-.header-trial {
-  background-color: rgba(255, 0, 0, 0.5);
 }
