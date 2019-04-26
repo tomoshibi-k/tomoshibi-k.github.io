@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link rel="stylesheet" href="responsive.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     </head>
 
     <body>
@@ -17,8 +18,19 @@
                 <div class="header-left">
                     <a href="index.html"><img class="logo" src="logo.svg"></a>
                 </div>
+
                 <!-- スマホ用メニューアイコン -->
-                <span class="fa fa-bars fa-lg menu-icon"></span>
+                <div class="menu">
+                    <span class="fa fa-bars fa-lg menu-icon"></span>
+                    <div class="menu-box">
+                        <a href="introduction.html">楽団紹介</a>
+                        <a href="recruitment.html">団員募集</a>
+                        <a href="activities.html">活動記録</a>
+                        <a href="schedule.html">練習予定</a>
+                        <a href="https://forms.gle/v8bXytEByT7YXfYN9" class="header-trial">見学申込</a>
+                    </div>
+                </div>
+                
                 <!-- PC用メニューバー -->
                 <div class="header-right">
                     <a href="introduction.html">楽団紹介</a>
@@ -90,6 +102,7 @@
                 </div>
         </footer>
 
+        <script src="script.js"></script>
     </body>
 
 </html>

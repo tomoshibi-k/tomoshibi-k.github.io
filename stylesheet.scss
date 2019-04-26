@@ -155,9 +155,19 @@ header{
     background-color: rgba(255, 0, 0, 0.5);
 }
 
+.menu-box {
+    font-size: 12px;
+    display: none;
+    padding: 5px 0px;
+    margin-bottom: 15px;
+  }
+
 .menu-icon {
     color: white;
     float: right;
-    padding: 21px 10px;
+    padding: 22px 10px;
     display: none;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.3);
+   }
 }
