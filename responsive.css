@@ -40,4 +40,11 @@
   .mobile-background {
     background-image: url("hourai.jpg");
   }
+  .texts {
+    font-size: 20px;
+    padding: 0 5%;
+  }
+  .twitter {
+    width: 80%;
+  }
 }
