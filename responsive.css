@@ -5,14 +5,24 @@
     width: 50%;
     margin-bottom: 50px;
   }
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
 }
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
   .content-icon {
-    width: 100%;
+    width: 50%;
+    margin-bottom: 50px;
   }
-  .top-wrapper {
-    text-align: center;
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
   }
 }
